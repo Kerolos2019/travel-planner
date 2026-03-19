@@ -1,6 +1,7 @@
 import streamlit as st
 from src.core.planner import TravelPlanner
 from dotenv import load_dotenv
+api_key = st.secrets["GROQ_API_KEY"]
 
 st.set_page_config(page_title="AI Travel Planner")
 st.title("AI Travel Itineary Planner")
